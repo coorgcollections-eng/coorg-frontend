@@ -117,7 +117,7 @@ export default function Checkout() {
 
       // 4️⃣ Open Cashfree Checkout (Production Mode)
       const cashfree = window.Cashfree({
-        mode: sandbox// "production", // mode: "sandbox"   //import.meta.env.VITE_CASHFREE_MODE || "production",
+        mode: "sandbox"  // "production", // mode: "sandbox"   //import.meta.env.VITE_CASHFREE_MODE || "production",
       });
 
       cashfree.checkout({
