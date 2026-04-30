@@ -207,7 +207,7 @@ export default function Checkout() {
 
       cashfree.checkout({
         paymentSessionId,
-        redirectTarget: "_self",
+        redirectTarget: "_blank", //"_self",
       });
     } catch (err) {
       console.log("Payment Error:", err);
