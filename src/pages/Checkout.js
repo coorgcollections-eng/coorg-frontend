@@ -212,7 +212,7 @@ export default function Checkout() {
 
       // 4️⃣ Open Cashfree Checkout
       const cashfree = window.Cashfree({
-        mode: "production", // must match backend env
+        mode: "test", // must match backend env
       });
 
       try {
@@ -259,57 +259,6 @@ export default function Checkout() {
     </div>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
